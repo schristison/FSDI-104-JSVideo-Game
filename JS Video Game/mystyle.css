@@ -1,0 +1,126 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    width: 12rem;
+       
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+
+}
+.site-header{
+    background: white;
+    color: rgba(255, 230, 0, 0.651);
+    font-size: 1.3rem;
+    background-position: center center;
+    background-size: cover;    
+    height: 20rem;     
+    text-align: center;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;    
+    margin-top: 2.5rem;
+    margin-bottom: auto;     
+}
+h1{
+    background: rgba(255, 255, 255, 0.288);
+    padding: 1rem;
+    width: 30rem;   
+    margin-top: 2.5rem;
+    margin-bottom: auto;   
+}
+.log{
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 3rem;    
+    margin-left: 2%; 
+    padding: 3rem; 
+    border: 0rem;    
+}
+
+.site-main{
+    background-image: url(img/bg.jfif);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: auto;
+    width: 100%;
+    -webkit-filter: saturate(2);
+    filter: saturate(2);
+}
+.player{
+    background: #d7d7d7;
+    height: 350px;
+    width: 250px;
+    flex-basis: (40% - 10px);
+    margin: 10px; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;   
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: auto; 
+    padding: 1rem; 
+    color: red;   
+}
+.navigation a:hover{
+    color: #b2d31e;
+    text-decoration: underline;
+}
+.navigation a:last-of-type{
+    margin: 0px;
+}
+.foot a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1rem; 
+    padding: 1rem; 
+    color: red;   
+}
+.foot a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+footer{
+    height: 10rem;
+    padding: 3px;
+    width: 100%;
+    background: rgba(29, 28, 28, 0.925);
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+.btn{
+    background: rgb(255, 0, 0);
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+.again{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+#console{
+    background: black;
+    color: white;
+    width: 32rem;
+    height: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;    
+    margin-top: 1.5rem;
+}
+.imgItem{
+    width: 30px;
+}
